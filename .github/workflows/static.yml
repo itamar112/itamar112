@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>אבות מלאכה</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #3d5ba0;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #3d5ba0;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            text-align: right;
+            padding: 12px;
+        }
+
+        th {
+            background-color: #3d5ba0;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 12px 24px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #777;
+            font-size: 14px;
+            padding: 10px 0;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+<h1>אבות מלאכה</h1>
+<table>
+    <thead>
+    <tr>
+        <th>שאלה</th>
+        <th>תשובה</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>מהן אבות מלאכה?</td>
+        <td>אבות מלאכה הן 39 המלאכות האסורות בשבת, כפי שנלמדו מהמלאכות שבוצעו במשכן. אלו מלאכות יסודיות שמהן נגזרות כל שאר האיסורים הקשורים למלאכה בשבת.</td>
+    </tr>
+    <tr>
+        <td>מנין הן נלמדות?</td>
+        <td>האבות נלמדות ממלאכות שנעשו לבניית המשכן במדבר, כפי שנרמז בתורה. התורה מקשרת בין שמירת שבת ("לא תעשה כל מלאכה") לבין המלאכות שבוצעו במשכן.</td>
+    </tr>
+    <tr>
+        <td>מה ההבדל בין אב מלאכה לתולדה?</td>
+        <td><strong>אב מלאכה</strong> הוא פעולה שהתבצעה באופן ישיר במשכן ונחשבת לאיסור מלאכה מהתורה. <strong>תולדה</strong> היא פעולה דומה או תוצאה הנובעת מאב מלאכה, שגם היא אסורה, אך לעיתים ברמת חומרה שונה.</td>
+    </tr>
+    <tr>
+        <td>דוגמה למלאכה</td>
+        <td><strong>חורש</strong>: אחת מאבות המלאכה. מדובר בפעולה של הכנת הקרקע לזריעה על ידי חרישה. תולדות חורש הן פעולות כגון חפירה או פילוס הקרקע, שגם הן אסורות בשבת.</td>
+    </tr>
+    <tr>
+        <td>מה עושים אם שכחו לכבות את הדוד לפני שבת?</td>
+        <td>הפעלה או כיבוי דוד בשבת אסורים משום איסורי הבערה וסותר. אם שכחו לכבות את הדוד, ניתן לרמוז לגוי לכבותו במידת הצורך או להימנע משימוש בו.</td>
+    </tr>
+    </tbody>
+</table>
+<button onclick="window.print()">הדפס את הטבלה</button>
+<footer>
+    נבנה על ידי [איתמר &amp; נועם] | כל הזכויות שמורות © 2024
+</footer>
+</body>
+</html>
